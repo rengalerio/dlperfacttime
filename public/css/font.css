@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'Rottens Signature';
+    src: url("../res/font/Rottens\ Signature.ttf");
+}
+
+.serif {
+    font-family: 'Playfair Display', serif;
+}
+
+.sans-serif {
+    font-family: 'Lato', sans-serif;
+}
+
+.cursive {
+    font-family: 'Rottens Signature';
+}
+
+.heading-1 {
+    font-size: 5.25rem;
+}
+
+.heading-2 {
+    font-size: 4.5rem;
+}
+
+.heading-3 {
+    font-size: 3.75rem;
+}
+
+.heading-4 {
+    font-size: 3rem;
+}
+
+.heading-5 {
+    font-size: 2.25rem;
+}
+
+.heading-6 {
+    font-size: 1.875rem;
+}
+
+.paragraph-1 {
+    font-size: 1.5rem;
+}
+
+.paragraph-2 {
+    font-size: 1.125rem;
+}
+
+.paragraph-3 {
+    font-size: 1rem;
+}
+
+.paragraph-4 {
+    font-size: 0.875rem;
+}
+
+.paragraph-5 {
+    font-size: 0.625rem;
+}
+
+.thin {
+    font-weight: 100;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.black {
+    font-weight: 900;
+}
+
+.text-white {
+    color: var(--text-shade-light);
+}
+
+.text-black {
+    color: var(--text-shade-dark);
+}
+
+.letter-spacing {
+    letter-spacing: 0.35rem;
+}

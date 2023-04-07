@@ -1,0 +1,33 @@
+.footer {
+    padding: 128px 136px;
+    width: 100vw;
+    height: auto;
+    background-color: var(--neutral-3A332C);
+    z-index: 1050;
+}
+
+@media screen and (max-width: 600px) {
+    .footer {
+        padding: 72px 24px;
+    }
+}
+
+.footer-accent,
+.footer-accent a {
+    color: var(--neutral-97826D);
+    text-decoration: none;
+}
+
+.footer-wrapper {
+    width: auto;
+    flex-wrap: wrap;
+}
+
+.footer-logo {
+    height: 219px;
+    width: auto;
+}
+
+.footer-section {
+    width: auto;
+}
