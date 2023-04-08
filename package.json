@@ -16,7 +16,9 @@
     "express": "^4.18.2",
     "express-ejs-layouts": "^2.5.1",
     "jquery": "^3.6.4",
-    "nodemon": "^2.0.22",
     "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
