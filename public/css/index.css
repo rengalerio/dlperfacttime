@@ -9,6 +9,12 @@
     color: var(--neutral-595652);
 }
 
+@media screen and (max-width: 600px) {   
+    .caption-wrapper {
+        transform: translateY(-50%);
+    }
+}
+
 .caption-bg {
     background: -webkit-gradient(radial, color-stop(0%, var(--gradient-light)), color-stop(65%, var(--light-clear))); /* Chrome, Safari4+ */
     background: -webkit-radial-gradient(var(--gradient-light) 0%, var(--light-clear) 65%); /* Chrome10+, Safari5.1+ */
@@ -38,12 +44,6 @@
     margin: 0;
     height: auto;
     z-index: 952;
-}
-
-@media screen and (max-width: 600px) {   
-    .caption {
-        transform: translateY(-50%);
-    }
 }
 
 .caption .heading-1 {
