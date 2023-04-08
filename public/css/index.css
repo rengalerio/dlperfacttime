@@ -40,6 +40,12 @@
     z-index: 952;
 }
 
+@media screen and (max-width: 600px) {   
+    .caption {
+        transform: translateY(-50%);
+    }
+}
+
 .caption .heading-1 {
     font-size: 14.125rem;
     line-height: 80%;
