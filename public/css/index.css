@@ -446,8 +446,20 @@
     }
 }
 
+@media screen and (max-width: 600px) {
+    .details-map .details-entry-2-col {
+        margin: auto;
+    }
+}
+
 .details-map p {
     text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+    .details-map p {
+        text-align: center;
+    }
 }
 
 .details-map-qr {
