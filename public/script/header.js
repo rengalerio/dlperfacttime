@@ -4,6 +4,7 @@ let headerLogo = document.getElementById("header-logo")
 let headerNavMobileWrapper = document.getElementById("header-nav-mobile-wrapper")
 let arcDiv = document.getElementById('entourage-arc')
 let sectionDiv = document.getElementById('entourage-section')
+let countdownWrapper = document.getElementById('countdown-wrapper')
 let vw = window.innerWidth;
 let vh = window.innerHeight;
 
