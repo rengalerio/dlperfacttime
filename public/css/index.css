@@ -422,10 +422,9 @@
 }
 
 .details-map {
-    width: 30vw;
+    width: 35vw;
     margin: auto;
 }
-
 
 @media screen and (max-width: 600px) {
     .details-map {
