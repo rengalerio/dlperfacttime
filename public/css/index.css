@@ -41,7 +41,7 @@
 }
 
 .caption .heading-1 {
-    font-size: 16.125rem;
+    font-size: 14.125rem;
     line-height: 80%;
 }
 
@@ -51,6 +51,13 @@
         font-size: 7.125rem;
         line-height: 80%;
     }
+}
+
+.carousel-upper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 960;
 }
 
 .invitation-section {
