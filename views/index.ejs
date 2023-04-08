@@ -1,7 +1,7 @@
 <div class="gradient-nav-bg"></div>
 <%- include('header'); -%>
 <div class="page-section">
-    <div class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel slide carousel-sync" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="3000">
                 <img src="/res/images/carousel-1.webp" class="carousel-item-1 d-block w-100 cover">
@@ -21,7 +21,7 @@
             <p class="heading-1 cursive text-center">A Lifetime Adventure</p>
         </div>
     </div>
-    <div class="carousel slide carousel-upper" data-bs-ride="carousel">
+    <div class="carousel slide carousel-upper carousel-sync" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="3000">
                 <img src="/res/images/carousel-1-upper.png" class="carousel-item-1 d-block w-100 cover">
@@ -42,4 +42,5 @@
 <div class="page-section invitation-section d-flex align-items-center no-padding">
     <img class="invitation align-self-center contain" src="/res/images/invitation.png">
 </div>
+<script src="/script/carousel.js"></script>
 <%- include('footer'); -%>
