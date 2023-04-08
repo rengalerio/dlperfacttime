@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 600px) {   
     .caption-wrapper {
-        transform: translateY(-50%);
+        transform: translateY(-12.5%);
     }
 }
 
