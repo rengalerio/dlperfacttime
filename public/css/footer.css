@@ -21,6 +21,7 @@
 .footer-wrapper {
     width: auto;
     flex-wrap: wrap;
+    padding-bottom: 128px;
 }
 
 .footer-logo {
