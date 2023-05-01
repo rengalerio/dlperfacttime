@@ -101,7 +101,6 @@
     }
 }
 
-/* ----- ENTOURAGE ----- */
 .bg-leaves {
     background-image: url('/res/images/default-bg.png');
     background-size: cover;
@@ -120,7 +119,7 @@
     }
 }
 
-
+/* ----- ENTOURAGE ----- */
 .entourage-wrapper {
     width: 100vw;
     height: auto;
