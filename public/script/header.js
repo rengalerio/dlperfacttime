@@ -22,17 +22,19 @@ function onCloseMenuClick() {
 
 function onHeaderScroll() {
     if (vw > 600) {
-        if (window.scrollY > 50) {
-            headerLogoWrapper.style.height = '40px'
-            headerLogo.style.width = 'auto'
-            header.style.height = '100px'
-            header.style.paddingTop = '30px'
-            header.style.paddingBottom = '30px'
-        } else {
-            headerLogoWrapper.style.height = '80px'
-            header.style.height = 'auto'
-            header.style.paddingTop = '40px'
-            header.style.paddingBottom = '40px'
+        if (vh > 700) {
+            if (window.scrollY > 50) {
+                headerLogoWrapper.style.height = '40px'
+                headerLogo.style.width = 'auto'
+                header.style.height = '100px'
+                header.style.paddingTop = '30px'
+                header.style.paddingBottom = '30px'
+            } else {
+                headerLogoWrapper.style.height = '80px'
+                header.style.height = 'auto'
+                header.style.paddingTop = '40px'
+                header.style.paddingBottom = '40px'
+            }
         }
 
         if (arcDiv) {

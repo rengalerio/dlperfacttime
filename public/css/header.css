@@ -6,7 +6,7 @@
     width: 100vw;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and ((max-width: 600px) or (max-height: 700px)) {
     .header {
         padding-top: 24px;
         padding-bottom: 24px;
@@ -22,7 +22,7 @@
     transition: height 300ms;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and ((max-width: 600px) or (max-height: 700px)) {
     .header-logo-wrapper {
         float: left;
     }
@@ -33,7 +33,7 @@
     float: left;
 }
   
-@media screen and (max-width: 600px) {
+@media screen and ((max-width: 600px) or (max-height: 700px)) {
     .header-logo {
         width: 48px;
         float: left;
@@ -47,7 +47,7 @@
     float: right;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and ((max-width: 600px) or (max-height: 700px)) {
     .header-menu {
         display: block;
         float: right;
@@ -66,7 +66,7 @@
     transform: translate(-50%, 1750%) rotate(-90deg);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and ((max-width: 600px) or (max-height: 700px)) {
     .header-nav {
         visibility: hidden;
     }
@@ -101,7 +101,7 @@
     background: linear-gradient(to right, var(--gradient-light) 0%, var(--light-clear) 100%);      /* W3C */
 }
 
-@media screen and (max-width: 600px) {
+@media screen and ((max-width: 600px) or (max-height: 700px)) {
     .gradient-nav-bg {
         display: none;
     }

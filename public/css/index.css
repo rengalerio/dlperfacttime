@@ -102,25 +102,15 @@
 }
 
 /* ----- ENTOURAGE ----- */
-.entourage-wrapper {
-    width: 100vw;
-    height: auto;
-    padding-top: 10vh;
-    background-color: var(--neutral-D9D9D9);
-    overflow: hidden;
-}
-
-.entourage-bg {
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
+.bg-leaves {
     background-image: url('/res/images/default-bg.png');
     background-size: cover;
-    opacity: 50%;
+    background-attachment: fixed;
+    background-blend-mode: color-burn;
 }
 
 @media screen and (max-width: 600px) {
-    .entourage-bg {
+    .bg-leaves {
         width: 100vw;
         height: 100vh;
         position: fixed;
@@ -128,6 +118,15 @@
         background-size: cover;
         opacity: 50%;
     }
+}
+
+
+.entourage-wrapper {
+    width: 100vw;
+    height: auto;
+    padding-top: 10vh;
+    background-color: var(--neutral-D9D9D9);
+    overflow: hidden;
 }
 
 .entourage-arc {
@@ -251,26 +250,6 @@
     padding-top: 10vh;
     background-color: var(--neutral-D9D9D9);
     overflow: hidden;
-}
-
-.details-bg {
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    background-image: url('/res/images/default-bg.png');
-    background-size: cover;
-    opacity: 50%;
-}
-
-@media screen and (max-width: 600px) {
-    .details-bg {
-        width: 100vw;
-        height: 100vh;
-        position: fixed;
-        background-image: url('/res/images/default-bg-mobile.png');
-        background-size: cover;
-        opacity: 50%;
-    }
 }
 
 .details-arc {
@@ -522,26 +501,6 @@
 @media screen and (max-width: 600px) {
     .gift-wrapper {
         padding-top: 25vw;
-    }
-}
-
-.gift-bg {
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    background-image: url('/res/images/default-bg.png');
-    background-size: cover;
-    opacity: 50%;
-}
-
-@media screen and (max-width: 600px) {
-    .gift-bg {
-        width: 100vw;
-        height: 100vh;
-        position: fixed;
-        background-image: url('/res/images/default-bg-mobile.png');
-        background-size: cover;
-        opacity: 50%;
     }
 }
 
