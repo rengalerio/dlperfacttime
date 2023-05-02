@@ -103,17 +103,21 @@
 
 .bg-leaves {
     background-image: url('/res/images/default-bg.png');
-    background-size: cover;
+    background-size: cover!important;
+    -o-background-size: cover!important;
+    -webkit-background-size: cover!important;
     background-attachment: fixed;
     background-blend-mode: color-burn;
 }
 
 @media screen and (max-width: 600px) {
     .bg-leaves {
-        width: 100vw;
-        height: 100vh;
         background-image: url('/res/images/default-bg-mobile.png');
-        background-size: cover;
+        background-size: cover!important;
+        -o-background-size: cover!important;
+        -webkit-background-size: cover!important;
+        background-attachment: fixed;
+        background-blend-mode: color-burn;
     }
 }
 
