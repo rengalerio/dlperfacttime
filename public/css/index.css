@@ -112,10 +112,8 @@
     .bg-leaves {
         width: 100vw;
         height: 100vh;
-        position: fixed;
         background-image: url('/res/images/default-bg-mobile.png');
         background-size: cover;
-        opacity: 50%;
     }
 }
 
@@ -514,7 +512,7 @@
 @media screen and (max-width: 600px) {
     .gift-title {
         width: 50vw;
-        top: 10vh;
+        top: 5vh;
     }
 }
 
