@@ -22,7 +22,7 @@ function onCloseMenuClick() {
 
 function onHeaderScroll() {
     if (vw > 600) {
-        if (vh > 850) {
+        if (vh > 700) {
             if (window.scrollY > 50) {
                 headerLogoWrapper.style.height = '40px'
                 headerLogo.style.width = 'auto'
