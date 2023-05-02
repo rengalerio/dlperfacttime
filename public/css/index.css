@@ -103,21 +103,21 @@
 
 .bg-leaves {
     background-image: url('/res/images/default-bg.png');
-    background-size: cover!important;
-    -o-background-size: cover!important;
-    -webkit-background-size: cover!important;
+    background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
     background-attachment: fixed;
     background-blend-mode: color-burn;
 }
 
 @media screen and (max-width: 600px) {
     .bg-leaves {
-        background-image: url('/res/images/default-bg-mobile.png');
-        background-size: cover!important;
-        -o-background-size: cover!important;
-        -webkit-background-size: cover!important;
-        background-attachment: fixed;
-        background-blend-mode: color-burn;
+        background-image: url('/res/images/default-bg-mobile.png')!important;
+        background-size: 100vw 100vh;
+        -o-background-size: 100vw 100vh;
+        -webkit-background-size: 100vw 100vh;
+        background-attachment: fixed!important;
+        background-blend-mode: screen;
     }
 }
 
