@@ -17,7 +17,7 @@
     }
 }
 
-@media screen and (max-height: 850px) {
+@media screen and ((max-height: 700px) and (min-width: 600px)) {
     .header {
         padding-top: 24px;
         padding-bottom: 24px;
@@ -39,7 +39,7 @@
     }
 }
 
-@media screen and (max-height: 850px) {
+@media screen and ((max-height: 700px) and (min-width: 600px)) {
     .header-logo-wrapper {
         float: left;
     }
@@ -57,7 +57,7 @@
     }
 }
 
-@media screen and (max-height: 850px) {
+@media screen and ((max-height: 700px) and (min-width: 600px)) {
     .header-logo {
         width: 48px;
         float: left;
@@ -78,7 +78,7 @@
     }
 }
 
-@media screen and (max-height: 850px) {
+@media screen and ((max-height: 700px) and (min-width: 600px)) {
     .header-menu {
         display: block;
         float: right;
@@ -103,7 +103,7 @@
     }
 }
 
-@media screen and (max-height: 850px) {
+@media screen and ((max-height: 700px) and (min-width: 600px)) {
     .header-nav {
         visibility: hidden;
     }
@@ -144,7 +144,7 @@
     }
 }
 
-@media screen and (max-height: 850px) {
+@media screen and ((max-height: 700px) and (min-width: 600px)) {
     .gradient-nav-bg {
         display: none;
     }
